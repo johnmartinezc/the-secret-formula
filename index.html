@@ -62,15 +62,56 @@
     <form id="hairCuts">
         <h2>Haircuts </h2>
         <div>
-
+            <label >Select date</label>
+            <br>
+            <input type="date" id="date">
+            <br>
+            <label>Select stylist</label>
+            <br>
+            <select name="stylist" id="stylist">
+                <option value="john">John</option>
+                <option value="james">James</option>
+                <option value="sara">Sara</option>
+                <option value="erika">Erika</option>
+                
+            </select>
         </div>
+        <label >Select length</label>
+        <br>
+        <input type="radio" id="long">Long hair
+        <br>
+        <input type="radio" id="short">Short hair
 
-
+        <br>
+        <input type="submit" value="Submit">
 
 
     </form>
 
 
+    <form id="createAccount">
+        <h2>create account</h2>
+        
+            <div id="email">
+                <label>Email</label>
+                <input id="userEmail" type="email">
+            </div>
+            <div id="user">
+                <label >UserName</label>
+                <input id="userName" type="text">
+            </div>
+            <div id="pass">
+                <label>Password</label>
+                <input id="password" type="password">
+            </div>
+            <div id="confirmPass">
+                <label>Confirm password</label>
+                <input id="confirmPassword" type="password">
+            </div>
+            <input  id="submitAccout" type="submit">
+        </form>
+
     <script src="main.js"></script>
 </body>
 </html>
+
